@@ -25,7 +25,7 @@ for (var i = 0; i < items.getItemCount(); i++)
 if (aras.utils.isClipboardSupported())
 {
     copyToBuffer(buffer);
-    return alert("Item(s) copied.");
+    return aras.AlertSuccess("Item(s) copied.");
 } 
 else 
 {
